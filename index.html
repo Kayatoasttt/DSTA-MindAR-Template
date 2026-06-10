@@ -32,6 +32,7 @@
 		<!-- For more information: https://aframe.io/docs/1.5.0/core/asset-management-system.html -->
 		<a-assets>
 			<img id="card" src="./images/virtualCard.png">
+			<a-asset-item id="avatarModel" src="./models/MyAvatar.glb"></a-asset-item> 
 		</a-assets>
 
 		<!-- Camera settings -->
@@ -58,8 +59,6 @@
 				navigate-on-click="url: https://kayatoasttt.github.io/portfolioWebsite/">
 
 			</a-text>
-
-			<a-asset-item id="avatarModel" src="./models/MyAvatar.glb"></a-asset-item>
 			
 			<a-entity position="0.35 0.2 0.1" rotation="90 0 0">
 				<a-gltf-model id="avatarModel" src="#avatarModel" position="0 0 0" rotation="0 0 0"
